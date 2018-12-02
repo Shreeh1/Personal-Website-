@@ -1,14 +1,22 @@
 body{
   margin: 0;
   padding: 0;
+  /* Image link - https://unsplash.com/photos/4iXagiKXn3Y */
+  background-image: url('california.jpg');
+  /* sets the background to cover the whole screen */
+  background-size:cover;
+  background-position:center;
 }
 .mainButtons{
   text-align: justify;
   margin-top: auto;
 }
 .btn {
-  /*color: #34ace0;*/
+
   border: 1px solid: #34ace0;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
   background: none;
   padding: 10px 20px;
   font-size: 20px;
