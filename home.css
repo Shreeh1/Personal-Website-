@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  padding: 0;
+  padding: 0 0;
   /* Image link - https://unsplash.com/photos/4iXagiKXn3Y */
   background-image: url('california.jpg');
   /* sets the background to cover the whole screen */
@@ -17,8 +17,9 @@ body{
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
+  width: auto;
   background: none;
-  padding: 10px 20px;
+  padding: 1px 20px;
   font-size: 20px;
   font-family: 'Schoolbell', cursive;
   cursor: pointer;
@@ -33,10 +34,9 @@ body{
   }
 
 .btn::before {
-  content: "";
   position: absolute;
   left: 0;
-  width: 100%;
+  width: 10%;
   height: 0%;
   background: #34ace0;
   z-index: -1;
@@ -45,7 +45,7 @@ body{
 }
 .btn0::before, .btn1::before, .btn2::before, .btn3::before, .btn4::before, .btn5::before{
   top: 0;
-  border-radius: 0 0 50% 50%;
+  border-radius: 20% 20%;
 }
 .btn0::before, .btn1::before, .btn2::before, .btn3::before, .btn4::before, .btn5::before{
   height: 0%;

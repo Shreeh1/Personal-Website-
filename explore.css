@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0 0;
+  /* Image link - https://unsplash.com/photos/4iXagiKXn3Y */
+  background-image: url('DoSomethingGreat.jpg');
+  /* sets the background to cover the whole screen */
+  background-size:cover;
+  background-position:center;
+}
+.mainButtons{
+  text-align: justify;
+  margin-top: auto;
+  color: #ced6e0;
+
+}
+.btn {
+  color: #57606f;
+  border: 1px solid: #ffffff;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  width: auto;
+  background: none;
+  padding: 1px 20px;
+  font-size: 20px;
+  font-family: 'Schoolbell', cursive;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+/* When the cursor moves on the button the text dissapear*/
+.btn0:hover, .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover{
+  color: #ffffff;
+  }
+
+.btn::before {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 0%;
+  background: #ffffff;
+  z-index: -1;
+  transition: 0.8s;
+
+}
+.btn0::before, .btn1::before, .btn2::before, .btn3::before, .btn4::before, .btn5::before{
+  top: 0;
+  border-radius: 20% 20%;
+}
+.btn0::before, .btn1::before, .btn2::before, .btn3::before, .btn4::before, .btn5::before{
+  height: 0%;
+}
+
+h1.BlogName{
+  color: #57606f;
+}
