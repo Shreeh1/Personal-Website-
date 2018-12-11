@@ -11,6 +11,14 @@ body{
   text-align: justify;
   margin-top: auto;
 }
+
+/* .sidebar-dp{
+  align-content: center;
+  height: 20px;
+  width: 20px;
+} */
+
+/* The general function for all the buttons*/
 .btn {
 
   border: 1px solid: #34ace0;
@@ -19,7 +27,7 @@ body{
   border: none;
   width: auto;
   background: none;
-  padding: 1px 20px;
+  padding: 1px 70px;
   font-size: 20px;
   font-family: 'Schoolbell', cursive;
   cursor: pointer;
@@ -28,7 +36,8 @@ body{
   position: relative;
   overflow: hidden;
 }
-/* When the cursor moves on the button the text dissapear*/
+
+/* When the cursor hover on the button the text dissapear*/
 .btn0:hover, .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover{
   color: #34ace0;
   }
@@ -49,4 +58,34 @@ body{
 }
 .btn0::before, .btn1::before, .btn2::before, .btn3::before, .btn4::before, .btn5::before{
   height: 0%;
+}
+.heading{
+  /* padding: 0px 900px 0px 670px; */
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+/* .sidebar-dp{
+  border-radius: 50%;
+} */
+
+.sidenav {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: .8;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.about{
+  margin-left: 400px;
+  font-size: 12px;
+  padding: 0px 10px;
 }
