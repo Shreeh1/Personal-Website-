@@ -66,5 +66,8 @@ reach_out.addEventListener('click', function(){
     element.style.left = "-384px";
 });
 
+element.addEventListener('click', function(){
+    element.style.left = "-384px";
+});
 
 
